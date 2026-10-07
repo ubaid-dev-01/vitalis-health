@@ -1,0 +1,68 @@
+/*
+ * Vitalis Health — Design System Cascade
+ * This file documents the CSS custom properties and design tokens
+ * used throughout the application.
+ *
+ * Primary source: src/index.css + tailwind.config.ts
+ */
+
+/* ===== COLOR TOKENS ===== */
+
+:root {
+  /* Brand Colors */
+  --primary: 173 91% 26%;          /* Teal #0F766E */
+  --primary-foreground: 0 0% 100%;
+
+  /* Surfaces */
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Semantic */
+  --destructive: 0 84% 60%;
+  --accent: 210 40% 96%;
+  --border: 214 32% 91%;
+
+  /* Sidebar */
+  --sidebar-background: 222 47% 11%;
+  --sidebar-primary: 173 91% 26%;
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+/*
+ * Font Stack: Inter (system fallback)
+ * Headings: font-bold, tracking-tight
+ * Body: text-sm to text-base, text-foreground
+ * Muted: text-muted-foreground
+ */
+
+/* ===== SPACING SCALE ===== */
+
+/*
+ * Container: max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 (via .container-main)
+ * Section padding: py-16 lg:py-24
+ * Card padding: p-5 lg:p-6
+ * Component gaps: gap-3 to gap-8
+ */
+
+/* ===== COMPONENT PATTERNS ===== */
+
+/*
+ * Cards: rounded-xl bg-card border border-border shadow-sm
+ * Buttons: rounded-lg px-5 py-2.5 font-semibold
+ * Inputs: rounded-lg border border-border bg-background px-3 py-2.5
+ * Badges: rounded-full px-2 py-0.5 text-xs font-medium
+ * Tables: divide-y divide-border, hover:bg-muted/30
+ */
+
+/* ===== ANIMATION ===== */
+
+/*
+ * GSAP: Hero section entrance animations
+ * Framer Motion: Page transitions, modals, mobile menus
+ * Tailwind: transition-colors, transition-all (hover states)
+ */
